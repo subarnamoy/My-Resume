@@ -85,9 +85,11 @@ h2 {
 
 footer {
     text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1rem;
     background-color: #1d6bf2;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     color: #fff;
     border-radius: 1.5em;
     }
