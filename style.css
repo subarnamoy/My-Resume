@@ -1,3 +1,4 @@
+/*
 @font-face {
     font-family: 'DM Sans';
     src: url("./Public/font/DM_Sans/static/DMSans-Regular.ttf");
@@ -27,6 +28,31 @@
     font-family: 'DM Serif Display Italic';
     src: url("./Public/font/DM_Serif_Display/DMSerifDisplay-Italic.ttf");
 }
+    */
+
+    // <uniquifier>: Use a unique and descriptive class name
+    // <weight>: Use a value from 100 to 1000
+    
+    .dm-sans-variable {
+      font-family: "DM Sans", serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+    }
+
+    .dm-serif-display-regular {
+        font-family: "DM Serif Display", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .dm-serif-display-regular-italic {
+        font-family: "DM Serif Display", serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+
 
 html {
     line-height: 1.6em;
