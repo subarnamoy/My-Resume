@@ -1,11 +1,31 @@
 @font-face {
     font-family: 'DM Sans';
-    src: url("./public/font/DM_Sans/DMSans-VariableFont_opsz\,wght.ttf");
+    src: url("./Public/font/DM_Sans/static/DMSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'DM Sans Italic';
+    src: url("./Public/font/DM_Sans/static/DMSans-Italic.ttf");
+}
+
+@font-face {
+    font-family: 'DM Sans Bold';
+    src: url("./Public/font/DM_Sans/static/DMSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: 'DM Sans Bold Italic';
+    src: url("./Public/font/DM_Sans/static/DMSans-BoldItalic.ttf");
 }
 
 @font-face {
     font-family: 'DM Serif Display';
     src: url("./public/font/DM_Serif_Display/DMSerifDisplay-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'DM Serif Display Italic';
+    src: url("./Public/font/DM_Serif_Display/DMSerifDisplay-Italic.ttf");
 }
 
 html {
@@ -20,7 +40,7 @@ html {
 p, ul, ol {
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 100 1000;
+    font-weight: 100 - 1000;
     font-style: normal;
     }
 
