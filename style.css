@@ -1,21 +1,12 @@
-.dm-serif-display-regular {
-    font-family: "DM Serif Display", serif;
-    font-weight: 400;
-    font-style: normal;
-    }
-  
-  .dm-serif-display-regular-italic {
-    font-family: "DM Serif Display", serif;
-    font-weight: 400;
-    font-style: italic;
-    }
-  
-.dm-sans-variable {
-    font-family: "DM Sans", serif;
-    font-optical-sizing: auto;
-    font-weight: 100, 200, 300, 400, 500, 600, 700, 800, 900;
-    font-style: normal;
-    }
+@font-face {
+    font-family: 'DM Sans';
+    src: url("./public/font/DM_Sans/DMSans-VariableFont_opsz\,wght.ttf");
+}
+
+@font-face {
+    font-family: 'DM Serif Display';
+    src: url("./public/font/DM_Serif_Display/DMSerifDisplay-Regular.ttf");
+}
 
 html {
     line-height: 1.6em;
