@@ -38,14 +38,14 @@ html {
     }
 
 p, ul, ol {
-    font-family: "DM Sans", sans-serif;
+    font-family: "DM Sans";
     font-optical-sizing: auto;
     font-weight: 100 - 1000;
     font-style: normal;
     }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: "DM Serif Display", serif;
+    font-family: "DM Serif Display";
     font-weight: 400;
     font-style: normal;
     line-height: 1.15em;
