@@ -58,7 +58,7 @@
 html {
     line-height: 1.6em;
     color: #333;
-    background-color: #efefef;
+    background-color: whitesmoke;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -84,23 +84,23 @@ main {
     }
 
 #first-division {
-    background-color:#1d6bf2;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-right: 2em;
-    padding-left: 2em;
-    border-radius: 1.5em;
-    margin-top: 1rem;
-    margin-bottom: 1em;
+    background-color: blueviolet;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     }
 
 #second-division {
     background-color:#fff;
-    padding-top: 1em;
-    padding-bottom: 1em;
-    padding-right: 2em;
-    padding-left: 2em;
-    border-radius: 1.5em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    border-radius: 20px;
     }
 
 h1 {
@@ -116,27 +116,27 @@ h1 {
 h2 {
     font-size: 2.074rem;
     margin-top: 1.6em;
-    color: #1d6bf2;
+    color: blueviolet;
     }
 
 footer {
     text-align: center;
-    margin-top: 1em;
-    margin-bottom: 1rem;
-    background-color: #1d6bf2;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: blueviolet;
+    padding-top: 15px;
+    padding-bottom: 15px;
     color: #fff;
-    border-radius: 1.5em;
+    border-radius: 20px;
     }
 
 @media screen and (max-width: 600px) {
     #first-division {
-        padding: 1em;
+        padding: 15px;
         }
 
     #second-division {
-        padding: 1em;
+        padding: 15px;
         }
 
     h1 {
